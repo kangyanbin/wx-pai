@@ -2,7 +2,7 @@
 这是一款视频微信小程序，使用了weui框架和阿里字体图标库开发
 
 ### 目录结构：
-
+```
 ├──image                           存放项目图片
 ├──pages                           存放项目页面相关文件
 │   ├──index                       首页
@@ -15,7 +15,7 @@
 ├──app.js                          系统的方法处理全局文件
 ├──app.json                        系统全局配置文件，是必须包含的
 ├──app.wxss                        全局样式
-
+```
 ### 项目截图:
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/index.png" width="271px" height="485px"/>
 
