@@ -1,0 +1,99 @@
+@import '../../utils/font.wxss';
+.menu{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  border-bottom:#eee solid 1px;
+  z-index: 100000;
+}
+.top-nav{
+    white-space: nowrap;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.top-btn{
+    display: inline-block;
+    padding: 22rpx;
+    font-size: 16px;
+}
+
+.top-hoverd-btn{
+    color: #42bd56;
+    border-bottom: #42bd56 solid 1px;
+}
+.top{
+  margin-top: 86rpx;
+}
+.content{
+  position: relative;
+  padding: 20rpx 20rpx 0rpx 20rpx;
+}
+.section{
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+.section .move{
+  position: relative;
+}
+.section .move .title{
+  position: absolute;
+  left: 16rpx; 
+  top: 16rpx;
+  color: #ffffff;
+  font-size: 40rpx;
+  white-space: normal;
+}
+.section .move .title1{
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  color: #ffffff;
+  transform: translate(-50%,-50%);
+  font-size: 120rpx;
+  opacity: 0.4;
+  z-index: 10000;
+}
+.section .move .time{
+  position: absolute;
+  /* display: block; */
+  width: 100rpx;
+  right: 10rpx; 
+  bottom: 30rpx;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+}
+.section .move .time text{
+  color: #ffffff;
+}
+/* .section video{
+  width: 100%;
+} */
+.section image{
+  width: 100%;
+  height: 450rpx;
+  /* height: 100%; */
+}
+.user-text{
+  width: 100%;
+  height: 60rpx;
+}
+.user-text image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.user-text{
+  position: relative;
+  padding: 6rpx;
+  border-radius: 50%;
+}
+.user-text .left{
+  position: absolute;
+  left: 70rpx;
+}
+.user-text .right{
+  position: absolute;
+  right: 20rpx;
+}

@@ -1,0 +1,25 @@
+<view>
+  <view class='move'>
+    <video src=""  controls ></video>
+  </view>
+    <form bindsubmit='upload'>
+        <view class="inputView">
+            <label class="loginLabel">视频标题：</label>
+            <input name="title" class="inputText" maxlength="20" placeholder="说点什么吧" />
+        </view>
+        <view class="inputView">
+            <label class="loginLabel">视频描述：</label>
+            <!-- <input name="desc" class="inputText" placeholder="说点什么吧" /> -->
+            <textarea name="desc" class="textarea" maxlength="60" auto-height placeholder="说点什么吧" />
+        </view>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          </label>
+        </radio-group>
+        <!-- 提交 -->
+        <button class="submitBtn" type="primary" form-type='submit'>上传视频</button>
+        <button class="gobackBtn" type="warn" form-type='reset'>重置</button>
+    </form>
+    <text class='about'>注意:请上传30分钟300M以内的视频，审核通过后才可以发布。</text>
+</view>

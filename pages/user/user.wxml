@@ -1,0 +1,29 @@
+<!--pages/user/user.wxml-->
+<view class="container page4">
+  <view class="mePic">
+    <image src="{{img}}"></image>
+    <text class="user">{{userInfo.nickName}}</text>
+  </view>
+  <view class="mePag" bindtap="toMyPackage">
+    <view>
+      <text class="fa fa-upload">  我的上传</text>
+      <text class="iconfont icon-more"></text>
+    </view>
+  </view>
+  <view class="mePag" bindtap="toMyAddress">
+    <view class="meMap">
+      <text class="fa fa-clock-o">  浏览记录</text>
+      <text class="iconfont icon-more"></text>
+    </view>
+  </view>
+  <view class="calling">
+    <view class='box' bindtap="kefu">
+      <image src='../../images/kefu.png'></image>
+      <view><text>客服</text></view>
+    </view>
+    <view class='box' bindtap="guanyu">
+      <image src='../../images/iconset0142.png'></image>
+      <view><text>关于我们</text></view>
+    </view>
+  </view>
+</view>

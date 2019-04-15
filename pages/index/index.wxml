@@ -1,0 +1,40 @@
+<view class="menu">
+    <scroll-view scroll-x="true" class="top-nav">
+        <view bindtap="toNew" class="top-btn {{new}}">首页</view>
+        <view bindtap="toGood" class="top-btn {{good}}">头条</view>
+        <view bindtap="toChild" class="top-btn {{child}}">搞笑</view>
+        <view bindtap="toMom" class="top-btn {{mom}}">配音秀</view>
+        <view bindtap="toGirl" class="top-btn {{girl}}">音乐</view>
+        <view bindtap="toFood" class="top-btn {{food}}">小花作品</view>
+        <view bindtap="toBeauti" class="top-btn {{beauti}}">活动</view>
+        <view bindtap="toHome" class="top-btn {{home}}">其他</view>
+    </scroll-view>
+</view>
+<view scroll-y="true" style="height: 100vh;" class="container">
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+  <view class='top'>
+    <!-- hidden="{{item.classIfication != now && now != 'new'}}" -->
+    <view class="content" wx:for="{{list}}" id="{{ index }}" bindtap='detail' >
+      <view class="section tc">
+        <view class='move'>
+        <!-- {{item.url}} -->
+          <!-- <video src="" binderror="videoErrorCallback" controls="{{true}}" show-center-play-btn="{{false}}" poster="../../images/slt.png"></video>
+          <cover-view class="title">{{ item.title }}</cover-view>
+          <cover-view class="fa fa-play-circle title1"></cover-view> -->
+          <image src='../../images/slt.png'></image>
+          <text class="title">{{ item.title }}</text>
+          <text class="fa fa-play-circle title1"></text>
+          <view class='time'><text>11:11</text></view>
+          
+        </view>
+        <view class="user-text">
+          <image src="{{item.headImg}}"></image>
+          <text class='left'>{{ item.userName }}</text>
+          <text class="fa fa-eye right">{{ item.count }}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

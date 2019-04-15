@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/movie/movie",
+    "pages/upload/upload",
+    "pages/detail/detail",
+    "pages/cache/cache"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#181E2C",
+    "navigationBarTitleText": "联合拍",
+    "navigationBarTextStyle":"#FFFFFF"
+  },
+  "tabBar": {
+    "backgroundColor": "#181E2C",
+    "color": "#ffffff",
+    "selectedColor": "#0099cc",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/home_light.png",
+      "selectedIconPath": "/images/home_fill_light.png"
+    },{
+      "pagePath": "pages/movie/movie",
+      "text": "拍摄",
+      "iconPath": "/images/record.png",
+      "selectedIconPath": "/images/record_fill.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "/images/my_light.png",
+      "selectedIconPath": "/images/my_fill_light.png"
+    }]
+  }
+}
