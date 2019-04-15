@@ -17,7 +17,7 @@
 ├──app.wxss                        全局样式
 
 ### 项目截图:
-<img src="" width="271px" height="485px"/>
+<img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/index.png" width="271px" height="485px"/>
 
 <img src="" width="271px" height="485px"/>
 
