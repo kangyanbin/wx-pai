@@ -20,13 +20,21 @@
 #### 首页
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/index.png" width="271px" height="485px"/>
 
+
+
 #### 视频详情页
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/detail.png" width="271px" height="485px"/>
+
+
 
 #### 用户中心页
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/user.png" width="271px" height="485px"/>
 
+
+
 #### 视频上传页
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/movie1.png" width="271px" height="485px"/>
+
+
 
 <img src="https://github.com/kangyanbin/wx-pai/blob/master/screenshots/movie2.png" width="271px" height="485px"/>
